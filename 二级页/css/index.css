@@ -1,0 +1,380 @@
+@import url("base.css");
+
+header{
+	height: 107px;
+	
+}
+
+.inner-width{
+	width: 1200px;
+	height: 107px;
+	margin: 0 auto;
+
+	position: relative;
+	overflow: hidden;
+	
+}
+
+.logo{
+	width: 153px;
+	height: 91px;
+	position: absolute;
+	top: 8px;
+	left:6px;
+}
+
+.daohang{
+	width: 612px;
+	height: 50px;
+	display: block;
+	float: left;
+	margin-top: 30px;
+	margin-left:295px;
+}
+
+.shouye{
+	display: block;
+	width:80px;
+	height: 50px;
+	box-sizing: border-box;
+	float: left;
+	margin-right: 20px;
+	line-height:50px;
+	text-align: center;
+	font-size: 14px;
+	color: black;
+}
+
+.daohang .active{
+	color: #4ab344;
+	border-bottom: 2px solid #4ab344;
+}
+
+.sy123{
+	color: #4ab344;
+	border-bottom: 2px solid #4ab344;
+}
+
+.gwc{
+	display: block;
+	width: 154px;
+	height: 42px;
+	float: right;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	margin-top: auto;
+	margin-bottom: auto;
+	right: 20px;
+	border: 1px solid #e6e6e6;
+}
+.gwc-tp{
+	float: left;
+	width:46px;
+	height: 42px;
+	background:url('../img/ico_car (1).png') 0 0;
+}
+
+.gwc span{
+	font-size: 12px;
+	text-align: center;
+	line-height: 42px;
+	color: #434343;
+}
+
+.gwc-jt{
+	float:right;
+	width:10px;
+	height: 6px;
+	background: url('../img/ico.png') 0 -675px;
+	margin-top: 20px;
+	margin-right: 10px;
+}
+
+/*.banner{
+    width: 100%;
+    height: 380px;
+
+
+}
+
+.banner-tp{
+	width: 100%;
+    height: 100%;
+    background: url(../img/banner.jpg) no-repeat center center;
+}*/
+
+.banner{
+	width: 100%;
+	height: 380px;
+
+}
+
+.banner-tp{
+	width: 100%;
+	height: 100%;
+	background: url(../img/banner.jpg) no-repeat center center;
+}
+
+
+/*产品分类开始*/
+.fenlei{
+	width: 100%;
+	height:1169px;
+	
+}
+
+.fl-nk{
+	width: 1200px;
+	height: 100%;
+/*	background: greenyellow;*/
+	margin: 0 auto;
+	margin-top: 50px;
+}
+
+.box-left{
+	width: 210px;
+    border-spacing: 0;
+    overflow: hidden;
+    padding: 0 10px 10px 0;
+    margin: 0;
+    height: auto;
+    float: left;
+}
+
+.fl-liebiao{
+	width:208px;
+	height: 194px;
+	margin: 10px 0;
+	border-left: 1px solid #E6E6E6;
+	border-right: 1px solid #E6E6E6;
+	border-bottom:1px solid #E6E6E6;
+}
+
+.fl-one{
+	width:208px;
+	height: 44.8px;
+	background: #5FAD01;
+}
+
+.fl-one span{
+	color: #ffffff;
+	font-size:18px;
+	line-height:44.8px;
+	margin-left: 10px;
+}
+
+.fl-two{
+	width: 188px;
+	height: 45.6px;
+	margin: 0 auto;
+	border-bottom: 1px dashed #E3E3E3;
+}
+.fl-two1{
+	width: 188px;
+	height: 45.6px;
+	margin: 0 auto;
+	
+}
+
+.fl-two span{
+	font-size: 16px;
+	color: #666666;
+	line-height: 45.6px;
+	margin-left: 10px;
+	
+}
+.fl-two1 span{
+	font-size: 16px;
+	color: #666666;
+	line-height: 45.6px;
+	margin-left: 10px;
+	
+}
+
+
+.box-right{
+	width: 970px;
+	height: 1129px;
+	float: right;
+}
+
+.right-one{
+	width:226px;
+	height: 340px;
+	padding: 5px 0;
+	margin: 8px;
+	float: left;
+}
+
+.shucai{
+	display: block;
+	width: 226px;
+	height: 226px;
+	
+}
+.shucai img{
+	display: block;
+	width: 226px;
+	height: 226px;
+}
+
+.bocai{
+	display: block;
+	width: 100%;
+	height: 22.5px;
+	text-align: center;
+	color: #000000;
+	line-height: 22.5px;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.xuxian{
+	width: 226px;
+	height: 0;
+	border-bottom: 1px dashed #E3E3E3;
+	margin-top: 9px;
+	margin-bottom: 6px;
+	
+}
+
+.anniu{
+	display: block;
+	width: 180px;
+	height: 33px;
+	background:#4ab344;
+	border-radius: 5px;
+	text-align: center;
+	line-height: 33px;
+	color: #ffffff;
+	font-size: 16px;
+	margin: 0 auto;
+	margin-top: 30px;
+	
+}
+
+/*商品结束*/
+
+
+/*尾部开始*/
+.weibu{
+	height: 555px;
+
+}
+.weibutp{
+	width:100%;
+	height: 555px;
+	background: yellow;
+	background: url(../img/weibu.jpg)no-repeat center center;
+	overflow: hidden;
+	margin: 0 auto;
+}
+
+.wb-neikuan{
+	width: 1200px;
+	height: 600px;
+/*	background: black;*/
+	margin: 0 auto;
+	margin-top: 50px;
+
+}
+
+.wb-box{
+	height: 67px;
+	width: 100%;
+
+}
+
+.wb-small{
+	height: 67px;
+	width: 237px;
+	margin-right: 83px;
+	float: left;
+}
+.wb-small2{
+	height: 67px;
+	width: 237px;
+	float: right;
+}
+
+.wb-tp{
+	display: block;
+	border:1px solid #ffffff;
+	box-sizing: border-box;
+	border-radius: 50%;
+	width: 67px;
+	height: 67px;
+	float: left;
+}
+
+.wb-wz{
+	width: 140px;
+	height: 67px;
+/*	background: black;*/
+	float: left;
+	margin-left: 30px;
+
+}
+.wb-wz h1{
+	margin-top: 15px;
+	color: #ffffff;
+}
+
+.wb-wz p{
+	color: rgb(146, 202, 157);
+}
+
+.henggang{
+	display: block;
+	margin-top: 80px;
+}
+.wbwzbox{
+	width:100%;
+	height: 152px;
+	margin-top: 80px;
+}
+
+.wbwz-box{
+	width: 138px;
+	height: 152px;
+	float: left;
+	margin-right: 143px;
+}
+.wbwz-box h1{
+	color: #ffffff;
+	margin-bottom: 20px;
+}
+
+.wbwz-box p{
+	color: rgb(146, 202, 157);
+	margin-bottom: 5px;
+}
+
+.wbwz123{
+	margin-left: 104px;
+}
+
+.wbwz-box1{
+	width: 138px;
+	height: 152px;
+
+	float: left;
+}
+.wbwz-box1 h1{
+	color: #ffffff;
+	margin-bottom: 20px;
+}
+
+.wbwz-box1 p{
+	color: rgb(146, 202, 157);
+	margin-bottom: 5px;
+}
+
+.zuidibu{
+	color: #ffffff;
+	text-align: center;
+	line-height: 20px;
+	margin-top: 100px;
+}
+/*尾部结束*/
